@@ -10,7 +10,7 @@ OUT_DIR = os.path.join("data", "processed")
 
 
 def normalize(x):
-    return x.astype("float32") / 255.0  # scale pixels to [0, 1]
+    return x.astype("float32") / 255.0 - 0.2860  # scale to [0, 1], then subtract the dataset mean
 
 
 def main():
