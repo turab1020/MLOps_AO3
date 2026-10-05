@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# DVC cache and machine-local settings (OAuth client secret and tokens stay out of Git)
+.dvc/cache/
+.dvc/tmp/
+.dvc/config.local
+*credentials*.json
+client_secret*.json
+
+# Large artifacts - versioned by DVC, not by Git
+*.npy
+*.npz
+*.h5
+*.csv
+*.png

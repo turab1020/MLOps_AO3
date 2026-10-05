@@ -1,0 +1,2 @@
+# Keep LF line endings on every OS so DVC file hashes do not change between checkouts
+* text=auto eol=lf
