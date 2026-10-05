@@ -37,6 +37,7 @@ def main():
     np.save(os.path.join(OUT_DIR, "y_val.npy"), y_val)
     np.save(os.path.join(OUT_DIR, "x_test.npy"), x_test)
     np.save(os.path.join(OUT_DIR, "y_test.npy"), y_test)
+    print(f"Saved to {OUT_DIR}: train {x_train.shape}, val {x_val.shape}, test {x_test.shape}")
 
 
 if __name__ == "__main__":
