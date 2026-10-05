@@ -1,6 +1,6 @@
 # fashion-ann-pipeline
 
-A fully-connected neural network (ANN) that classifies Fashon-MNIST images into 10 clothing
+A fully-connected neural network (ANN) that classifies Fashion-MNIST images into 10 clothing
 categories. Code is versioned with Git, data and models with DVC, and the DVC remote is a
 Google Drive folder.
 
