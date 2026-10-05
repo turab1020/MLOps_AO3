@@ -1,0 +1,14 @@
+# Single source of truth for every tunable value in the pipeline.
+# The scripts in src/ read this file with yaml.safe_load().
+
+preprocess:
+  test_size: 0.2    # share of the 60,000 training images held out for validation
+  seed: 42
+
+train:
+  dense_units: 128
+  dropout_rate: 0.2
+  learning_rate: 0.001
+  epochs: 10
+  batch_size: 64
+  seed: 42
