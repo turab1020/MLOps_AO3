@@ -10,7 +10,7 @@ OUT_DIR = os.path.join("data", "processed")
 
 
 def normalize(x):
-    return x.astype("float32") / 255.0 / 0.3530  # scale to [0, 1], then divide by the dataset std
+    return (x.astype("float32") / 255.0 - 0.2860) / 0.3530  # scale to [0, 1], then standardize with the dataset mean and std
 
 
 def main():
