@@ -16,4 +16,3 @@ client_secret*.json
 *.h5
 *.csv
 *.png
-/models
